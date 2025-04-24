@@ -69,7 +69,7 @@ def main():
         for canal in channels:
             for item in tags:
                 canal.basic_cancel(item)
-        
+
         filas_declaradas = []
         threads = []
         tags = []
